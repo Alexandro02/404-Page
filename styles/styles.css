@@ -1,0 +1,109 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   padding: 2.5rem 0 0 4.8rem;
+}
+
+.header404-container {
+   font-family: 'Inconsolata', monospace;
+}
+
+.main404-container {
+   display: flex;
+   justify-content: center;
+   place-items: center;
+
+   margin: 12rem;
+}
+
+.main404-content>button {
+   font-family: 'Space Mono', monospace;
+   margin: 4rem 0 0 0;
+   width: 13.5rem;
+   height: 4.25rem;
+   background-color: #333;
+   color: #FFFFFF;
+   border: none;
+}
+
+.p404-container {
+   font-family: 'Space Mono', monospace;
+   font-weight: 700;
+   width: 36rem;
+   font-size: 4rem;
+   letter-spacing: -0.14rem;
+}
+
+
+.p404-container>span {
+   font-weight: 400;
+   display: block;
+   width: 24rem;
+   margin: 2.25rem 0 0 0;
+   font-size: 1.5rem;
+   letter-spacing: -0.0525rem;
+}
+
+img {
+   width: 33.7015rem;
+   height: 27.96413rem;
+   flex-shrink: 0;
+   margin: 0 7.42rem 0 0;
+}
+
+.footer404-container {
+   bottom: 0;
+   left: 0;
+   text-align: center;
+   color: #BDBDBD;
+   font-family: 'Montserrat', monospace;
+}
+
+.footer404-container>h3 {
+   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 375px) {
+   .container {
+      padding: 1.25rem 0 0 1.5rem;
+   }
+
+   .header404-container {
+      font-size: 1.5rem;
+      letter-spacing: -0.12rem;
+   }
+
+   .main404-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   img {
+      width: 17.92688rem;
+      height: 14.875rem;
+      flex-shrink: 0;
+   }
+
+   .p404-container {
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      width: 21.875rem;
+      font-size: 3rem;
+      letter-spacing: -0.14rem;
+   }
+
+
+   .p404-container>span {
+      font-weight: 400;
+      display: block;
+      width: 20.5rem;
+      margin: 2.25rem 0 0 0;
+      font-size: 1.125rem;
+      letter-spacing: -0.0525rem;
+   }
+}
